@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<title>second temp</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/second_temp.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="libraries/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+	<!--start header-->
+	<header class="header">
+		<div class="containerr">
+			<nav class="nav">
+				<h2>HORAS</h2>
+				<ul>
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#" data-value="ser">services</a></li>
+					<li><a href="#" data-value="test">TestiMonial</a></li>
+					<li><a href="#" data-value="port">Meals</a></li>
+					<li><a href="#" data-value="order">Order</a></li>
+				</ul>
+			</nav>
+			<div class="clearfix"></div>
+		</div>
+		<div class="overlay"></div>
+	</header>
+	<!--end header-->
+
+	<!--start services-->
+	<div id="ser" class="services">
+		<div class="containerr">
+			<h2 class="special-heading">Our services</h2>
+			<section>
+				<div class="info">
+					<h3>Complet Meals</h3>
+					<p>
+						you can make order
+					</p>
+				</div>
+			</section>
+			<section>
+				<div class="info">
+					<h3>Fast Foods</h3>
+					<p>
+						We Have Fast Food Like Sandwitches and Snacks
+					</p>
+				</div>
+			</section>
+			<section>
+				<div class="info">
+					<h3>Drinkes</h3>
+					<p>
+						You Can Take Hot Drinkes Like Tea, Coffe, and Nescafe or Cold Drinkes like Juices
+					</p>
+				</div>
+			</section>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<!--end services-->
+
+	<!--start TestiMonial-->
+	<div id="test" class="testi">
+		<div class="t-overlay">
+			<div class="containerr">
+				<h2>What our Clients say</h2>
+				<div class="slider">
+					<div class="t-active">
+						<q>it's very delicious Food, and I love it so much</q>
+						<p>Aglan</p>
+					</div>
+					<div>
+						<q>I Love Potatoes Here so Much</q>
+						<p>Naeem</p>
+					</div>
+					<div>
+						<q>I Will come Here Every Weakend</q>
+						<p>Abou El-Safa</p>
+					</div>
+					<div>
+						<q>My goal in final Match come After eating Koshary HORAS</q>
+						<p>Abo Trika</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end TestiMonial-->
+
+	<!--start meals-->
+	<div id="port" class="projects">
+		<div class="containerr">
+			<h2 class="special-heading">Our Meals</h2>
+			<div class="gallary">
+				<div class="row">
+					<div>
+						<div class="pro-over">Potatoes</div>
+						<img src="images/potato.jpg">
+					</div>
+					<div>
+						<div class="pro-over">Koshary</div>
+						<img src="images/koshari.jpg">
+					</div>
+					<div>
+						<div class="pro-over">Chiken Shaweram</div>
+						<img src="images/shaorma.jpg">
+					</div>
+				</div>
+				<div class="row">
+					<div>
+						<div class="pro-over">Burger</div>
+						<img src="images/Burger.jpg">
+					</div>
+					<div>
+						<div class="pro-over">Flafle</div>
+						<img src="images/flafel.jpg">
+					</div>
+					<div>
+						<div class="pro-over">Foole</div>
+						<img src="images/fool.jpeg">
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--end meals-->
+
+	<!--start order-->
+	<div id="order">
+		<form method="post">
+			<div class="container">
+				<h1>Make your Order</h1>
+				<div class="info">
+					<input type="text" name="name" placeholder="Enter your name">
+					<input type="phone" name="phone" placeholder="Enter your phone">
+					<input type="text" name="address" placeholder="Enter your address">
+				</div>
+				<hr class="separator">
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>Food Name</th>
+							<th>Price</th>
+							<th>Amount</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Koshary</td>
+							<td>10</td>
+							<td>
+								<input type="number" name="amount-1" value="0" min="0">
+							</td>
+						</tr>
+						<tr>
+							<td>Foole</td>
+							<td>2.5</td>
+							<td>
+								<input type="number" name="amount-2" value="0" min="0">
+							</td>
+						</tr>
+						<tr>
+							<td>Flafle</td>
+							<td>2.5</td>
+							<td>
+								<input type="number" name="amount-3" value="0" min="0">
+							</td>
+						</tr>
+						<tr>
+							<td>Potatos</td>
+							<td>4</td>
+							<td>
+								<input type="number" name="amount-4" value="0" min="0">
+							</td>
+						</tr>
+						<tr>
+							<td>Chiken Shaweram</td>
+							<td>20</td>
+							<td>
+								<input type="number" name="amount-5" value="0" min="0">
+							</td>
+						</tr>
+						<tr>
+							<td>Burger</td>
+							<td>10</td>
+							<td>
+								<input type="number" name="amount-6" value="0" min="0">
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<input type="submit" name="submit" class="btn btn-info btn-lg col-md-4">
+			</div>
+		</form>
+	</div>
+	<!--end order-->
+
+
+	<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+	<script src="js/second_temp.js" type="text/javascript"></script>
+</body>
+
+</html>
